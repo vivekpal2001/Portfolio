@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   // Since you are using a custom domain, the base MUST be the root path ('/')
-  base: '/',
+  base: '/Portfolio/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
