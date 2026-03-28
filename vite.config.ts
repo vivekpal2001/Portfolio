@@ -4,8 +4,8 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Setting base to the repository name for correct GitHub Pages deployment padding
-  base: '/Portfolio/',
+  // Since you are using a custom domain, the base should be the root path
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
