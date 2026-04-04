@@ -1,5 +1,17 @@
 export const projects = [
   {
+    id: 'findash',
+    title: 'FinDash',
+    problem: 'As an assignment project for Zorvyn, the requirement was to build a modern, interactive finance dashboard to track spending, analyze patterns, and visualize transactions across an interactive map with a clean, responsive interface.',
+    design: 'I designed a highly interactive, responsive frontend architecture using React 19 and Tailwind CSS v4.\n\n• Designed a modern card-based layout with floating sidebar on desktop and bottom navigation on mobile.\n• Integrated Leaflet + OpenStreetMap for a Transaction Map View with custom GPS pins.\n• Implemented Brainy Quick Add (NLP) to auto-extract transaction details from natural text.\n• Built an Animated Sankey Diagram for cash flow visualization.',
+    solution: 'Developed a robust dashboard with advanced state management using Redux Toolkit.\n• Added Framer Motion for premium page transitions, stagger animations, and animated counters.\n• Implemented advanced filtering, sorting, Export functionality, and real-world pagination.\n• Built Role-based UI (Admin/Viewer) alongside Dark/Light mode and Data persistence.\n\nThis resulted in a feature-rich, performant, and visually stunning financial tracker.',
+    tech: ['React 19', 'TypeScript', 'Tailwind CSS v4', 'Redux Toolkit', 'Framer Motion', 'Recharts', 'Leaflet', 'Vite'],
+    github: 'https://github.com/vivekpal2001/finance-dashboard-ui',
+    live: 'https://finance-dashboard-ui-sage.vercel.app/',
+    accent: 'text-blue-400',
+    bgAccent: 'from-blue-500/10 to-transparent'
+  },
+  {
     id: 'credresolve',
     title: 'CredResolve',
     problem: 'In group expenses (trips, friends), settling money is messy. Usually, people do multiple unnecessary transactions, which is inefficient and confusing.',
