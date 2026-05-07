@@ -12,6 +12,18 @@ export const projects = [
     bgAccent: 'from-blue-500/10 to-transparent'
   },
   {
+    id: 'taskflow',
+    title: 'TaskFlow',
+    problem: 'Managing team tasks efficiently requires robust role-based access control, real-time Kanban boards, and insightful productivity analytics to monitor progress and prevent overdue tasks in a multi-tenant architecture.',
+    design: 'I designed a full-stack, production-ready web application focusing on a premium glassmorphism aesthetic.\n\n• Designed a dynamic Drag-and-Drop Kanban interface using @hello-pangea/dnd.\n• Created a relational database schema using PostgreSQL and Prisma ORM.\n• Implemented secure JWT-based auth and Role-Based Access Control (RBAC).\n• Developed a responsive UI using vanilla CSS modules with floating animated blobs.',
+    solution: 'Security is handled at the workspace level with specific permissions for Project Owners, Admins, and Members.\n• Members can only update tasks assigned to them, while Admins manage the board.\n• Built a Productivity Dashboard for visual analytics and task breakdowns using Recharts.\n• Integrated proactive alerts for overdue task monitoring with visual toast notifications.\n• Deployed frontend on Vercel and backend on Railway for a highly available production environment.',
+    tech: ['React.js', 'Node.js', 'Express', 'PostgreSQL', 'Prisma', 'Recharts', 'dnd-kit', 'Vite'],
+    github: 'https://github.com/vivekpal2001/task-manager-ethara-ai',
+    live: 'https://task-manager-ethara-6jcrzvgny-vivekpal2001s-projects.vercel.app',
+    accent: 'text-indigo-400',
+    bgAccent: 'from-indigo-500/10 to-transparent'
+  },
+  {
     id: 'credresolve',
     title: 'CredResolve',
     problem: 'In group expenses (trips, friends), settling money is messy. Usually, people do multiple unnecessary transactions, which is inefficient and confusing.',
